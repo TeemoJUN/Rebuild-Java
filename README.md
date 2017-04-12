@@ -4,7 +4,7 @@
 + 因此重修JAVA
 
 ---
-# 泛型例子--》来自java编程思想--P397
+### 泛型例子-->来自java编程思想--P397
 + Holder.java 
 + CovariantArrays.java
 + Wildcards.java
