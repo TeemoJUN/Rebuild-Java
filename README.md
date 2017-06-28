@@ -11,6 +11,6 @@
 
 ## Java7文件是来自《Java 7 并发编程实战手册》的里面代码练习
 
-
+## LintCOde文件夹是在[LintCode](http://www.lintcode.com/zh-cn/problem/ "LintCode")刷刷的题目，练练大脑。
 
 
