@@ -32,3 +32,17 @@
 
 
 
+## ExecutorService exec=Executors.newCachedThreadPool();
+
++ exec对象既有submit（）方法也有execute()方法
++ execute()方法无返回值
+## 二者区别在于:
+
+|返回值|方法名|解释|
+|-----|------|----|
+| void | execute(Runnable command)|在未来某个时间执行给定的命令。|
+| \<T> Future \<T>|submit(Callable<T> task)| 提交一个返回值的任务用于执行，返回一个表示任务的未决结果的Future。 |
+|Future<?>|submit(Runnable task)|提交一个 Runnable 任务用于执行，并返回一个表示该任务的 Future。|
+|\<T> Future\<T>|submit(Runnable task, T result)|提交一个 Runnable 任务用于执行，并返回一个表示该任务的 Future。|
+
++ 在处理Future时需要处理异常
