@@ -46,3 +46,23 @@
 |\<T> Future\<T>|submit(Runnable task, T result)|提交一个 Runnable 任务用于执行，并返回一个表示该任务的 Future。|
 
 + 在处理Future时需要处理异常
+
+
+
+---
+
+
+## 创建对象
+
++ 当实例化子类对象时，首先要加载父类的class文件进内存，静态代码块是随着类的创建而执行，所以父类静态代码块最先被执行，子类class文件再被加载，同理静态代码块被先执行；实例化子类对象要先调用父类的构造方法，而调用父类构造方法前会先执行父类的非静态代码块
+
+---
+
+## HashMap与Hashtable
+
++ HashMap不能保证元素的顺序,HashMap能够将键设为null，也可以将值设为null，与之对应的是Hashtable,(注意大小写：不是HashTable)，Hashtable不能将键和值设为null，否则运行时会报空指针异常错误；
+HashMap线程不安全，Hashtable线程安全
+
+
+
+
