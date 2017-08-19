@@ -28,9 +28,5 @@ public class Heap {
 				break;
 			}
 		}
-		
-		if(arr instanceof int[]){
-			System.out.println("aa");
-		}
 	}
 }
